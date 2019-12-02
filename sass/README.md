@@ -10,6 +10,32 @@ Use **spaces only**, with **2 spaces** per indentation level. Never mix tabs and
 
 Separate selector blocks with a single blank line.
 
+```
+// Good
+.button{
+  padding: 20px;
+ }
+
+.list-entry{
+  background: #FFF;
+  
+  &-active{
+    background: #000;
+  }
+}
+
+//Bad
+.button{
+  padding: 20px;
+ }
+.list-entry{
+  background: #FFF;
+  &-active{
+    background: #000;
+  }
+}
+```
+
 ### Trailing Whitespace
 
 Do not include trailing whitespace on any lines.
