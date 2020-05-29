@@ -10,7 +10,7 @@ Use **spaces only**, with **2 spaces** per indentation level. Never mix tabs and
 
 Separate selector blocks with a single blank line.
 
-```
+```sass
 // Good
 .button{
   padding: 20px;
